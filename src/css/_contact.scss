@@ -1,0 +1,45 @@
+.contact {
+    padding-bottom: 20rem;
+
+    .description {
+        margin-bottom: 5rem;
+        line-height: 1.75;
+    }
+
+    .email {
+        color: $red;
+    }
+
+    .container {
+        width: 60rem;
+    }
+
+    .form-wrapper {
+        min-height: 55rem;
+    }
+
+    .success {
+        font-weight: 700;
+        font-size: 1.8rem;
+    }
+
+    @media screen and (max-width: $tablet) {
+
+        .container {
+            width: 117rem;
+        }
+    }
+
+    @media screen and (max-width: $mobile) {
+        padding-bottom: 50px;
+
+        .description {
+            margin-bottom: 25px;
+            line-height: 1.5;
+        }
+
+        .form-wrapper {
+            min-height: 1px;
+        }
+    }
+}

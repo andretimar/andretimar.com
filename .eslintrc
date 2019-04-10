@@ -1,0 +1,39 @@
+{
+  "extends": "standard",
+  "env": {
+    "browser": true,
+    "es6": true,
+    "node": true,
+    "commonjs": true
+  },
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "linebreak-style": ["error", "unix"],
+    "quotes": ["error", "single"],
+    "semi": ["error", "always"],
+    "no-await-in-loop": ["error"],
+    "no-console": ["error"],
+    "no-debugger": "error",
+    "no-dupe-keys": "error",
+    "no-empty": "error",
+    "no-extra-semi": "error",
+    "no-irregular-whitespace": "error",
+    "no-unreachable": "error",
+    "curly": "error",
+    "default-case": "error",
+    "eqeqeq": "error",
+    "no-empty-function": "error",
+    "no-undef": "error",
+    "no-unused-vars": "error",
+    "camelcase": "error",
+    "react/prop-types": 0
+  }
+}

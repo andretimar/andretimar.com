@@ -1,0 +1,27 @@
+{
+  "extends": "stylelint-config-standard",
+  "rules": {
+    "block-no-empty": null,
+    "color-no-invalid-hex": true,
+    "comment-empty-line-before": [
+      "always",
+      {
+        "ignore": ["stylelint-commands", "after-comment"]
+      }
+    ],
+    "declaration-colon-space-after": "always",
+    "declaration-colon-newline-after": null,
+    "no-descending-specificity": null,
+    "indentation": 4,
+    "font-family-no-missing-generic-family-keyword": null,
+    "max-empty-lines": 2,
+    "rule-empty-line-before": [
+      "always",
+      {
+        "except": [],
+        "ignore": ["after-comment"]
+      }
+    ],
+    "unit-whitelist": ["em", "rem", "%", "s", "px", "vh", "deg"]
+  }
+}

@@ -1,0 +1,136 @@
+.home {
+
+    .header {
+
+        h1 {
+            margin: 20rem 0;
+        }
+    }
+
+    .portfolio {
+        padding: 15rem 0;
+
+        h2 {
+            margin-bottom: 5rem;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+        }
+    }
+
+    .placeholder {
+        width: 100%;
+        height: 50rem;
+        background-image: url('../../static/images/placeholder.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .about {
+        padding: 15rem 0;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .left {
+            width: 53.3rem;
+            max-width: 100%;
+        }
+
+        .right {
+            width: 55.5rem;
+            max-width: 100%;
+        }
+
+        .greeting {
+            font-size: 1.6rem;
+            color: $gray;
+            font-weight: 700;
+            text-transform: uppercase;
+            line-height: 1;
+            margin-bottom: 3.5rem;
+            margin-top: 0;
+        }
+
+        .name {
+            font-size: 8rem;
+            font-weight: 700;
+            line-height: 1;
+            margin-bottom: 5rem;
+            margin-top: 0;
+        }
+
+        .title {
+            line-height: 1;
+            margin-bottom: 5rem;
+            margin-top: 0;
+        }
+
+        p {
+            font-size: 1.8rem;
+            line-height: 2.4rem;
+        }
+    }
+
+    @media screen and (max-width: $mobile) {
+
+        .header {
+
+            h1 {
+                margin: 50px 0;
+            }
+        }
+
+        .portfolio {
+            padding: 25px 0;
+
+            h2 {
+                margin-bottom: 25px;
+            }
+        }
+
+        .placeholder {
+            display: none;
+        }
+
+        .about {
+            padding: 0;
+
+            .greeting {
+                margin-bottom: 25px;
+            }
+
+            .name {
+                font-size: 46px;
+                margin-bottom: 25px;
+            }
+
+            .container {
+                padding: 0;
+            }
+
+            .left {
+                order: 2;
+                width: 100%;
+                padding: 25px 15px;
+            }
+
+            .right {
+                order: 1;
+            }
+
+            p {
+                font-size: 16px;
+                line-height: 22px;
+            }
+        }
+    }
+}

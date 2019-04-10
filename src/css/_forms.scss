@@ -1,0 +1,56 @@
+.label {
+    margin-bottom: 1rem;
+    font-weight: 600;
+    font-size: 1.6rem;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 12px;
+    }
+}
+
+.form-control {
+    border: 0.1rem solid #c6c6c6;
+    box-shadow: none;
+    appearance: none;
+    resize: none;
+    padding: 1.5rem;
+    background-color: #f8f8f8;
+    font-size: 1.6rem;
+
+    &:focus {
+        outline: none;
+        border-color: $red;
+    }
+
+    @media screen and (max-width: $mobile) {
+        padding: 10px;
+    }
+}
+
+.form-control-feedback,
+.invalid-feedback {
+    margin-top: 1rem;
+    font-size: 1.6rem;
+
+    @media screen and (max-width: $mobile) {
+        font-size: 12px;
+    }
+}
+
+.form-group {
+    margin-bottom: 2.5rem;
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (max-width: $mobile) {
+        margin-bottom: 15px;
+    }
+}
+
+.required {
+    color: $red;
+}
+
+textarea {
+    min-height: 20rem;
+}
