@@ -85,6 +85,10 @@ img {
 
 @media screen and (max-width: $mobile) {
 
+    br {
+        display: none;
+    }
+
     html {
         font-size: 10px;
     }
