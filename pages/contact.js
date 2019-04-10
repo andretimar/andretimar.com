@@ -75,7 +75,7 @@ class Contact extends Component {
               Fill out the form below to send me a message or you can reach me
               directly at{' '}
               <a className="email" href="mailto:andre@andretimar.com">
-                me@andretimar.com
+                andre@andretimar.com
               </a>{' '}
               if you don't like forms. I'm currently available for hire, so
               please don't hesitate to say hi! 👋
