@@ -3,7 +3,7 @@ import React from 'react';
 const PortfolioItem = props => {
   return (
     <article className="portfolio-item">
-      <a href={props.url} target="_blank">
+      <a href={props.url} target="_blank" rel="noopener noreferrer">
         <div
           className="portfolio-item__illustration"
           style={{ backgroundColor: props.color }}

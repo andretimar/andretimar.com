@@ -72,7 +72,19 @@ class Index extends Component {
             </section>
           </div>
           <section className="placeholder">
-            <div className="image" />
+            <picture className="image">
+              <source
+                srcSet="/static/images/placeholder.webp"
+                type="image/webp"
+                alt="Budapest"
+              />
+              <source
+                srcSet="/static/images/placeholder.jpg"
+                type="image/jpeg"
+                alt="Budapest"
+              />
+              <img src="/static/images/placeholder.jpg" alt="Budapest" />
+            </picture>
           </section>
           <section className="about">
             <div className="container">

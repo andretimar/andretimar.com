@@ -5,6 +5,7 @@
         url('/static/fonts/Circular-Book.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
+    font-display: fallback;
 }
 
 @font-face {
@@ -14,6 +15,7 @@
         url('/static/fonts/Circular-Medium.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
+    font-display: fallback;
 }
 
 @font-face {
@@ -23,6 +25,7 @@
         url('/static/fonts/Circular-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
+    font-display: fallback;
 }
 
 @font-face {
@@ -30,6 +33,7 @@
     src: url('/static/fonts/TiemposHeadline-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
+    font-display: fallback;
 }
 
 @font-face {
@@ -37,4 +41,5 @@
     src: url('/static/fonts/TiemposHeadline-Bold.woff') format('woff');
     font-weight: 700;
     font-style: normal;
+    font-display: fallback;
 }
