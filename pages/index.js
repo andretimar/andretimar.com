@@ -29,42 +29,42 @@ class Index extends Component {
                 <PortfolioItem
                   url="https://www.behance.net/gallery/78400247/TOPRUM"
                   color="#005a95"
-                  image="/static/images/portfolio-toprum.jpg"
+                  image="/static/images/portfolio/portfolio-toprum"
                   name="TopRum Sky & Bar"
                   tagline="EXCLUSIVE ROOFTOP TAPAS & SKYBAR"
                 />
                 <PortfolioItem
                   url="https://www.behance.net/gallery/78523371/HOTEL-RUM"
                   color="#ffdebe"
-                  image="/static/images/portfolio-hotelrum.jpg"
+                  image="/static/images/portfolio/portfolio-hotelrum"
                   name="Hotel Rum Budapest"
                   tagline="LUXURY BOUTIQUE HOTEL IN BUDAPEST"
                 />
                 <PortfolioItem
                   url="https://www.behance.net/gallery/78420691/320DTLA"
                   color="#fae857"
-                  image="/static/images/portfolio-320dtla.jpg"
+                  image="/static/images/portfolio/portfolio-320dtla"
                   name="DTLA Yoga Wear"
                   tagline="LUXURY SPORTSWEAR FROM LOS ANGELES"
                 />
                 <PortfolioItem
                   url="https://www.behance.net/gallery/78522457/HOTEL-COLLECT"
                   color="#b63547"
-                  image="/static/images/portfolio-hotelcollect.jpg"
+                  image="/static/images/portfolio/portfolio-hotelcollect"
                   name="Hotel Collect"
                   tagline="BOUTIQUE HOTEL IN DOWNTOWN BUDAPEST"
                 />
                 <PortfolioItem
                   url="https://www.behance.net/gallery/78523987/BLACK-SWAN-BAR"
                   color="#000"
-                  image="/static/images/portfolio-blackswan.jpg"
+                  image="/static/images/portfolio/portfolio-blackswan"
                   name="Black Swan Bar Budapest"
                   tagline="Dating Mobile Application"
                 />
                 <PortfolioItem
                   url="https://www.behance.net/gallery/78523699/HOUSING-BUDAPEST"
                   color="#c7e891"
-                  image="/static/images/portfolio-housingbudapest.jpg"
+                  image="/static/images/portfolio/portfolio-housingbudapest"
                   name="Housing Budapest"
                   tagline="Real Estate Agency"
                 />
@@ -103,7 +103,19 @@ class Index extends Component {
                 </p>
               </div>
               <div className="right">
-                <img src="/static/images/andre.jpg" alt="Andre Timar" />
+                <picture>
+                  <source
+                    srcSet="/static/images/andre.webp"
+                    type="image/webp"
+                    alt="Andre Timar"
+                  />
+                  <source
+                    srcSet="/static/images/andre.jpg"
+                    type="image/jpeg"
+                    alt="Andre Timar"
+                  />
+                  <img src="/static/images/andre.jpg" alt="Andre Timar" />
+                </picture>
               </div>
             </div>
           </section>
