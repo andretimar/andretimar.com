@@ -31,17 +31,17 @@ const Footer = () => (
       </div>
       <div className="social-icons">
         <Link href={`https://www.behance.net/andretimar`}>
-          <a target="_blank">
+          <a target="_blank" rel="noopener noreferrer">
             <img src={BehanceIcon} alt="Behance" />
           </a>
         </Link>
         <Link href={`https://github.com/andretimar`}>
-          <a target="_blank">
+          <a target="_blank" rel="noopener noreferrer">
             <img src={GitHubIcon} alt="GitHub" />
           </a>
         </Link>
         <Link href={`https://www.linkedin.com/in/andre-timar-a3b9a0107/`}>
-          <a target="_blank">
+          <a target="_blank" rel="noopener noreferrer">
             <img src={LinkedinIcon} alt="Linkedin" />
           </a>
         </Link>
