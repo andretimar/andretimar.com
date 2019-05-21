@@ -7,6 +7,21 @@ import stylesheet from '../src/css/style.scss';
 const Header = () => (
   <React.Fragment>
     <Head>
+      <script
+        async
+        src="https://www.googletagmanager.com/gtag/js?id=UA-140629880-1"
+      />
+      <script
+        dangerouslySetInnerHTML={{
+          __html: `
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-140629880-1');`,
+        }}
+      />
+
       <style
         // eslint-disable-next-line react/no-danger
         dangerouslySetInnerHTML={{ __html: normalize }}
